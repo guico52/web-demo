@@ -1,0 +1,40 @@
+h2{
+    font-size: 30px;
+}
+
+.login-form {
+    height: 35vh;
+    width: 20%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+va-form {
+    width:100%;
+    /*组件居中*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input {
+    width: 90%;
+    height: 30px;
+    margin: 15px 0;
+    text-align: center;
+    align-self: center;
+    transform: translate(5%,0);
+}
+
+.form-button {
+    width: 30%;
+    text-align: center;
+    margin: 0 20% 0 50px;
+}
+
